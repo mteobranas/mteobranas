@@ -1,48 +1,33 @@
-# Astro Starter Kit: Basics
+# Hi there! 👋 Welcome to my GitHub!
 
-```sh
-npm create astro@latest -- --template basics
-```
+I'm Mateo Brañas – a **front-end developer** with a passion for building clean, modern, and interactive web experiences. 🌟  
+Take a look around and explore my projects, or feel free to connect with me!
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/basics)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/basics)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/basics/devcontainer.json)
+---
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+## 🚀 About Me
 
-![just-the-basics](https://github.com/withastro/astro/assets/2244813/a0a5533c-a856-4198-8470-2d67b1d7c554)
+- 💻 I’ve been coding for **2 years** and specialize in **React**.
+- 🛠️ Currently learning and building awesome web applications with **Next.js**.
+- 🌱 Working towards improving my **discipline and skills** both mentally and physically in 2025.
+- ✨ I’m always open to **collaboration** and **new opportunities**!
 
-## 🚀 Project Structure
+---
 
-Inside of your Astro project, you'll see the following folders and files:
+## 🌟 What You'll Find Here
 
-```text
-/
-├── public/
-│   └── favicon.svg
-├── src/
-│   ├── layouts/
-│   │   └── Layout.astro
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
+- 💼 **Portfolio Projects**: My featured work showcasing what I can build.
+- 🔧 **Side Projects**: Experimental ideas, tools, and applications I've worked on.
+- 📚 **Learning Repos**: My journey through learning technologies like TypeScript and Next.js.
 
-To learn more about the folder structure of an Astro project, refer to [our guide on project structure](https://docs.astro.build/en/basics/project-structure/).
+---
 
-## 🧞 Commands
+## 📫 Let's Connect!
 
-All commands are run from the root of the project, from a terminal:
+- **Portfolio**: [My Portfolio](https://portfolio-gules-seven-97.vercel.app/)  
+- **LinkedIn**: [My LinkedIn Profile](https://www.linkedin.com/in/mteobranas/)
+- **Email**: mateobranas20@gmail.com  
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
+---
 
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+⭐ **Fun Fact**: I’m always on the lookout for ways to challenge myself, whether that’s in coding, the gym, or life in general! Let’s grow together. 💪  
