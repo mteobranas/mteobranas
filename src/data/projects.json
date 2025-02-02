@@ -1,0 +1,42 @@
+[
+  {
+    "name": "TaskMaster",
+    "description": "Gestor de tareas colaborativo",
+    "date": "2024-03-15",
+    "tech": ["React", "Node.js", "MongoDB", "Tailwind"],
+    "image": "template.jpg",
+    "bgColor": "#eeddd3"
+  },
+  {
+    "name": "EcoTienda",
+    "description": "E-commerce sostenible",
+    "date": "2024-04-20",
+    "tech": ["Astro", "React", "Stripe", "CSS Modules"],
+    "image": "template.jpg",
+    "bgColor": "#f0efeb"
+  },
+  {
+    "name": "Portfolio AI",
+    "description": "Generador de portfolios inteligente",
+    "date": "2024-02-10",
+    "tech": ["Python", "Next.js", "OpenAI API", "TypeScript"],
+    "image": "template.jpg",
+    "bgColor": "#fff1e6"
+  },
+  {
+    "name": "FitTracker",
+    "description": "Seguimiento de actividad física",
+    "date": "2024-05-01",
+    "tech": ["Flutter", "Firebase", "Dart", "GraphQL"],
+    "image": "template.jpg",
+    "bgColor": "#eddcd2"
+  },
+  {
+    "name": "AstroBlog",
+    "description": "Blog personal con Astro",
+    "date": "2024-01-30",
+    "tech": ["Astro", "Markdown", "JavaScript", "SCSS"],
+    "image": "template.jpg",
+    "bgColor": "#e8d1c5"
+  }
+]

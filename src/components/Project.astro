@@ -1,24 +1,51 @@
-<section id="work" class="text-white h-[100vh] px-[100px] bg-black flex flex-col gap-8">
-    <p class="text-2xl pt-[50px]">
-        01 <span class="text-slate-500">/ 05</span>
-    </p>
-    <div class="flex w-full justify-between">
-        <h1 class="text-4xl w-[600px]">
-            StartGlobal - One platform for your business back office.
-        </h1>
-        <div class="flex flex-col gap-4 text-right">
-            <p class="border-b-2 max-">NEXT.JS</p>
-            <p class="border-b-2">TAILWINDCSS</p>
-        </div>
-    </div>
-    <div class="flex w-full gap-20 text-xl pt-8">
-        <div class="flex flex-col gap-4">
-            <p class="text-slate-500">Project</p>
-            <p>StartGlobal</p>
-        </div>
-        <div class="flex flex-col gap-4">
-            <p class="text-slate-500">Date</p>
-            <p>2025 - present</p>
-        </div>
-    </div>
-</section>
+---
+// src/components/Proyectos.astro
+import type { Project } from "../types/projects.d.ts";
+import projectsData from "../data/projects.json";
+
+const projects: Project[] = projectsData;
+---
+
+{
+    projects.map((project, index) => (
+        <section
+            id="work"
+            class="h-auto px-[100px] flex flex-col gap-8 relative text-black pb-[100px]"
+            style={`background-color: ${project.bgColor};`}
+        >
+            <p class="text-2xl pt-[50px] z-10">
+                {String(index + 1).padStart(2, "0")}{" "}
+                <span class="text-opacity-50">
+                    / {String(projects.length).padStart(2, "0")}
+                </span>
+            </p>
+
+            <div class="flex w-full justify-between z-10">
+                <h1 class="text-4xl w-[600px] font-bold">
+                    {project.name} - {project.description}
+                </h1>
+
+                <div class="flex flex-col gap-4 text-right">
+                    {project.tech.map((tech) => (
+                        <p>{tech.toUpperCase()}</p>
+                    ))}
+                </div>
+            </div>
+
+            <div class="flex w-full gap-20 text-xl pt-8 z-10">
+                <div class="flex flex-col gap-4">
+                    <p class="text-opacity-50">Project</p>
+                    <p class="font-medium">{project.name}</p>
+                </div>
+                <div class="flex flex-col gap-4">
+                    <p class="text-opacity-50">Date</p>
+                    <p class="font-medium">
+                        {new Date(project.date).getFullYear()} -{" "}
+                        {index === 0 ? "present" : "completed"}
+                    </p>
+                </div>
+            </div>
+            <img src={project.image} alt={project.name} />
+        </section>
+    ))
+}
